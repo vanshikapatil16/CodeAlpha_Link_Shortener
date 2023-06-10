@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/font-awesome.min.css">
+
+    <title>URL Shortener</title>
+</head>
+<body>
+    <div class="container">
+        <h3>URL Shortener</h3>
+
+        <article>Paste a Long URL Here: </article>
+        <input type="text" placeholder="Enter the Link Here" id="url">
+        <button id="shorten">Shorten <i class="fas fa-link"></i></button><br>
+
+        <article>Domain: </article>
+        <input type="text" placeholder="Short Link" id="short_url">
+        <button id="copy">
+            Copy <i class="fas fa-copy"></i>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="copy_file.js"></script>
+</body>
+</html>
